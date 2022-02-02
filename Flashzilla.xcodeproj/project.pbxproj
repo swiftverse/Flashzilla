@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242B0C1527A83EC800CB526B /* FileManager_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242B0C1427A83EC800CB526B /* FileManager_Extension.swift */; };
 		24ABA8A927A3C54B00139E10 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ABA8A827A3C54B00139E10 /* Card.swift */; };
 		24ABA8AB27A3C65500139E10 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ABA8AA27A3C65500139E10 /* CardView.swift */; };
+		24AC05F027AA762D008B7A7E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AC05EF27AA762D008B7A7E /* DataManager.swift */; };
 		24EABA5927A6DE770046E115 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EABA5827A6DE770046E115 /* EditCards.swift */; };
 		24EB2F6227A1224B00187E50 /* FlashzillaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB2F6127A1224B00187E50 /* FlashzillaApp.swift */; };
 		24EB2F6427A1224B00187E50 /* Flashzilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB2F6327A1224B00187E50 /* Flashzilla.swift */; };
@@ -17,8 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		242B0C1427A83EC800CB526B /* FileManager_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager_Extension.swift; sourceTree = "<group>"; };
 		24ABA8A827A3C54B00139E10 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		24ABA8AA27A3C65500139E10 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		24AC05EF27AA762D008B7A7E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		24EABA5827A6DE770046E115 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		24EB2F5E27A1224B00187E50 /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EB2F6127A1224B00187E50 /* FlashzillaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashzillaApp.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 		24ABA8A727A3C52700139E10 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				242B0C1427A83EC800CB526B /* FileManager_Extension.swift */,
+				24AC05EF27AA762D008B7A7E /* DataManager.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -181,8 +187,10 @@
 				24EB2F6427A1224B00187E50 /* Flashzilla.swift in Sources */,
 				24ABA8A927A3C54B00139E10 /* Card.swift in Sources */,
 				24ABA8AB27A3C65500139E10 /* CardView.swift in Sources */,
+				24AC05F027AA762D008B7A7E /* DataManager.swift in Sources */,
 				24EABA5927A6DE770046E115 /* EditCards.swift in Sources */,
 				24EB2F6227A1224B00187E50 /* FlashzillaApp.swift in Sources */,
+				242B0C1527A83EC800CB526B /* FileManager_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
